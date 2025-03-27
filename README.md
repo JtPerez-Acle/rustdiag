@@ -119,7 +119,7 @@ RustDiag is being built following Test-Driven Development (TDD) principles, wher
 
 ```bash
 # Not yet published to crates.io - install from source:
-git clone https://github.com/yourusername/rustdiag.git
+git clone https://github.com/JtPerez-Acle/rustdiag.git
 cd rustdiag
 cargo build --release
 ```
@@ -222,6 +222,7 @@ All major features have corresponding tests that validate their functionality.
 
 This is open source not just in license, but in **spirit**.  
 Feel free to fork, hack, suggest modules, or build whole alternate versions. This is just the beginning.
+Email me at (**jtperez.acle@gmail.com**)
 
 Contributing is easy:
 1. Fork the repository
