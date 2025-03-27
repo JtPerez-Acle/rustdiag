@@ -1,0 +1,45 @@
+[package]
+name = "rustdiag"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# Async runtime
+tokio = { version = "1.36", features = ["full"] }
+
+# CLI framework
+clap = { version = "4.5", features = ["derive"] }
+
+# Network interface access
+pnet = "0.34"
+pcap = "1.1"
+
+# DNS functionality
+trust-dns-resolver = "0.23"
+
+# System monitoring
+sysinfo = "0.30"
+
+# API requests for geolocation
+reqwest = { version = "0.11", features = ["json"] }
+
+# Data serialization
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# Error handling
+anyhow = "1.0"
+thiserror = "1.0"
+
+# Logging
+tracing = "0.1"
+tracing-subscriber = "0.3"
+
+# File system
+dirs = "5.0"
+
+[dev-dependencies]
+# Testing
+mockall = "0.12"
+tokio-test = "0.4"
+tempfile = "3.8"
